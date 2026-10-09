@@ -1,0 +1,32 @@
+DAILY WATCHLIST REPORT
+Generated: 2026-10-09 17:35:59
+Symbols: 20 | Price above 3: 20
+
+Latest available daily closes; not guaranteed live prices.
+Dollar changes are per share in listing currency, not account P&L.
+YTD compares with the prior year's final close; excludes dividends.
+Yield% is trailing 12-month cash dividends / latest close.
+All watchlist rows are included; the >3 rule is a flag, not a filter.
+Missing values are N/A. See CSV for names, dates and status.
+
+Ticker CCY  Price   YTD+  YTD- SMA200 Yield%
+   AMD USD 611.00 396.84  0.00 385.33   0.00
+  SOXX USD 559.62 258.48  0.00 462.19   0.22
+   SMH USD 603.40 243.27  0.00 506.24   0.18
+   QQQ USD 750.49 136.18  0.00 672.17   0.41
+   SPY USD 777.96  96.04  0.00 722.93   0.97
+  AAPL USD 335.15  63.29  0.00 290.74   0.32
+  META USD 719.07  58.97  0.00 630.14   0.29
+   XLK USD 198.60  54.62  0.00 166.38   0.42
+  MSFT USD 534.05  50.43  0.00 434.00   0.68
+  NVDA USD 229.54  43.04  0.00 202.16   0.23
+ GOOGL USD 351.55  38.55  0.00 340.03   0.24
+   DIA USD 515.70  35.13  0.00 503.50   1.40
+   IWM USD 278.95  32.79  0.00 277.06   0.98
+  AMZN USD 260.26  29.44  0.00 242.14   0.00
+  PLTR USD 205.88  28.13  0.00 152.32   0.00
+  ARKK USD  89.72  12.80  0.00  78.01   0.00
+   JPM USD 332.99  10.77  0.00 322.14   1.85
+   XLF USD  54.68   0.00  0.09  53.69   1.51
+  NFLX USD  70.36   0.00 23.40  83.45   0.00
+  TSLA USD 382.85   0.00 66.87 390.61   0.00
