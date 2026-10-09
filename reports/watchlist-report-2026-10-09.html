@@ -1,0 +1,317 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Watchlist Report</title>
+  <style>
+    :root { color-scheme: light dark; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 24px; background:#0b1020; color:#e8ecf3; }
+    .wrap { max-width: 1400px; margin: 0 auto; }
+    h1 { margin: 0 0 8px; }
+    p { color:#b6c0d1; }
+    .cards { display:grid; grid-template-columns: repeat(4, minmax(180px, 1fr)); gap:16px; margin:24px 0; }
+    .card { background:#151c33; border:1px solid #2a3558; border-radius:12px; padding:16px; }
+    .label { font-size:12px; text-transform:uppercase; color:#9fb0cf; letter-spacing:.08em; }
+    .value { font-size:28px; margin-top:8px; font-weight:700; }
+    table { width:100%; border-collapse:collapse; background:#151c33; border:1px solid #2a3558; border-radius:12px; overflow:hidden; }
+    th, td { padding:12px 10px; border-bottom:1px solid #24304f; text-align:left; font-size:14px; }
+    th { position:sticky; top:0; background:#11182c; }
+    .pass { color:#59d98e; font-weight:600; }
+    .fail { color:#ff7b7b; font-weight:600; }
+    @media (max-width: 900px) { .cards { grid-template-columns: repeat(2, minmax(180px, 1fr)); } body { padding:12px; } th, td { font-size:12px; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Daily Watchlist Report</h1>
+    <p>Generated 2026-10-09 16:43:54</p>
+    <div class="cards">
+      <div class="card"><div class="label">Total tickers</div><div class="value">20</div></div>
+      <div class="card"><div class="label">Price above $3</div><div class="value">20</div></div>
+      <div class="card"><div class="label">Above 200 SMA</div><div class="value">18</div></div>
+      <div class="card"><div class="label">Average YTD $ change</div><div class="value">$75.18</div></div>
+    </div>
+    <table>
+      <thead>
+        <tr>
+          <th>Ticker</th>
+          <th>Name</th>
+          <th>Last Price</th>
+          <th>Price &gt; $3</th>
+          <th>YTD Gain $</th>
+          <th>YTD Loss $</th>
+          <th>200 SMA</th>
+          <th>Trend</th>
+          <th>Yield</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        
+            <tr>
+                <td><strong>AMD</strong></td>
+                <td>Advanced Micro Devices, Inc.</td>
+                <td>$609.49</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$386.02</td>
+                <td>$0.00</td>
+                <td>$385.33</td>
+                <td class="pass">Above</td>
+                <td>0.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>SOXX</strong></td>
+                <td>iShares Semiconductor ETF</td>
+                <td>$557.77</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$244.08</td>
+                <td>$0.00</td>
+                <td>$462.18</td>
+                <td class="pass">Above</td>
+                <td>22.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>SMH</strong></td>
+                <td>VanEck Semiconductor ETF</td>
+                <td>$601.78</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$228.48</td>
+                <td>$0.00</td>
+                <td>$506.23</td>
+                <td class="pass">Above</td>
+                <td>18.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>QQQ</strong></td>
+                <td>Invesco QQQ Trust</td>
+                <td>$750.38</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$137.26</td>
+                <td>$0.00</td>
+                <td>$672.17</td>
+                <td class="pass">Above</td>
+                <td>42.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>SPY</strong></td>
+                <td>State Street SPDR S&P 500 ETF Trust</td>
+                <td>$777.96</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$94.79</td>
+                <td>$0.00</td>
+                <td>$722.93</td>
+                <td class="pass">Above</td>
+                <td>99.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>META</strong></td>
+                <td>Meta Platforms, Inc.</td>
+                <td>$725.73</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$75.32</td>
+                <td>$0.00</td>
+                <td>$630.17</td>
+                <td class="pass">Above</td>
+                <td>29.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>AAPL</strong></td>
+                <td>Apple Inc.</td>
+                <td>$334.79</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$63.78</td>
+                <td>$0.00</td>
+                <td>$290.73</td>
+                <td class="pass">Above</td>
+                <td>32.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>MSFT</strong></td>
+                <td>Microsoft Corporation</td>
+                <td>$535.09</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$62.15</td>
+                <td>$0.00</td>
+                <td>$434.00</td>
+                <td class="pass">Above</td>
+                <td>75.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>XLK</strong></td>
+                <td>State Street Technology Select Sector SPDR ETF</td>
+                <td>$198.18</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$53.88</td>
+                <td>$0.00</td>
+                <td>$166.38</td>
+                <td class="pass">Above</td>
+                <td>43.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>NVDA</strong></td>
+                <td>NVIDIA Corporation</td>
+                <td>$229.27</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$40.42</td>
+                <td>$0.00</td>
+                <td>$202.15</td>
+                <td class="pass">Above</td>
+                <td>43.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>GOOGL</strong></td>
+                <td>Alphabet Inc.</td>
+                <td>$354.12</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$38.97</td>
+                <td>$0.00</td>
+                <td>$340.04</td>
+                <td class="pass">Above</td>
+                <td>25.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>PLTR</strong></td>
+                <td>Palantir Technologies Inc.</td>
+                <td>$205.44</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$37.58</td>
+                <td>$0.00</td>
+                <td>$152.31</td>
+                <td class="pass">Above</td>
+                <td>0.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>AMZN</strong></td>
+                <td>Amazon.com, Inc.</td>
+                <td>$261.36</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$34.86</td>
+                <td>$0.00</td>
+                <td>$242.15</td>
+                <td class="pass">Above</td>
+                <td>0.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>DIA</strong></td>
+                <td>State Street SPDR Dow Jones Industrial Average ETF Trust</td>
+                <td>$515.47</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$31.84</td>
+                <td>$0.00</td>
+                <td>$503.50</td>
+                <td class="pass">Above</td>
+                <td>142.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>IWM</strong></td>
+                <td>iShares Russell 2000 ETF</td>
+                <td>$278.81</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$30.03</td>
+                <td>$0.00</td>
+                <td>$277.06</td>
+                <td class="pass">Above</td>
+                <td>98.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>ARKK</strong></td>
+                <td>ARK Innovation ETF</td>
+                <td>$89.70</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$11.39</td>
+                <td>$0.00</td>
+                <td>$78.01</td>
+                <td class="pass">Above</td>
+                <td>0.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>JPM</strong></td>
+                <td>JPMorgan Chase & Co.</td>
+                <td>$333.03</td>
+                <td class="pass">Yes</td>
+                <td class="pass">$7.55</td>
+                <td>$0.00</td>
+                <td>$322.14</td>
+                <td class="pass">Above</td>
+                <td>199.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>XLF</strong></td>
+                <td>State Street Financial Select Sector SPDR ETF</td>
+                <td>$54.72</td>
+                <td class="pass">Yes</td>
+                <td class="fail">$0.00</td>
+                <td>$0.21</td>
+                <td>$53.69</td>
+                <td class="pass">Above</td>
+                <td>155.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>NFLX</strong></td>
+                <td>Netflix, Inc.</td>
+                <td>$70.82</td>
+                <td class="pass">Yes</td>
+                <td class="fail">$0.00</td>
+                <td>$20.17</td>
+                <td>$83.46</td>
+                <td class="fail">Below</td>
+                <td>0.00%</td>
+                <td>OK</td>
+            </tr>
+            
+            <tr>
+                <td><strong>TSLA</strong></td>
+                <td>Tesla, Inc.</td>
+                <td>$383.71</td>
+                <td class="pass">Yes</td>
+                <td class="fail">$0.00</td>
+                <td>$54.36</td>
+                <td>$390.61</td>
+                <td class="fail">Below</td>
+                <td>0.00%</td>
+                <td>OK</td>
+            </tr>
+            
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
